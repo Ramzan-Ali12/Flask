@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Flask</title>
+</head>
+
+<body>
+    <p style="color:blue;">Choose CSV/XLS file to upload</p>
+    <form method="POST" enctype="multipart/form-data" action="/showdata">
+        <input type="file" id="myFile" name="uploaded-file" accept=".csv,.xlsx,txt"><br><br>
+        <input type="submit" value="Show CSV">
+    </form>
+  
+</body>
+
+</html>
+
